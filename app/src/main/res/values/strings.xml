@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie Finder</string>
+    <string name="titre_recherche">Recherche d\'un film</string>
+    <string name="edit_text_titre">Titre</string>
+    <string name="edit_text_annee">Annee</string>
+    <string name="button_recherche">Recherche</string>
+</resources>

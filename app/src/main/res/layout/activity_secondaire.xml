@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schema.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ilyes.android_projet.secondaire">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="230dp"
+            android:layout_width="match_parent"
+            android:id="@+id/linearLayout"
+            android:layout_marginTop="80dp">
+
+            <android.support.v7.widget.AppCompatImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/MiniatureFilm" />
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/titre_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+
+            android:id="@+id/date_publication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="350dp"
+            />
+
+        <TextView
+
+            android:id="@+id/type_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/date_publication"
+            android:layout_marginTop="18dp"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
